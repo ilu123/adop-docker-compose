@@ -20,7 +20,7 @@ If you provisioned your stack using the start-up CLI, an example workspace conta
 Once you have explored this the next step is to create your own Workspace and Project and then load another cartridge using a 'Load Cartridge' job in the 'Cartridge Management' folder (that automatically gets created in any Project).  The cartridge [development cartridge](https://github.com/accenture/adop-cartridge-cartridge-dev/) also helps create your own cartridges.
 
 # Quickstart Instructions
-
+[** First if you live in China, please checkout the adop-nginx from mysite to same level directory of the ADOP!! **]
 These instructions will spin up an instance in a single server in AWS ([for **_evaluation_** purposes](https://accenture.github.io/adop-docker-compose/docs/evaluation-mode)).  Please check the [prerequisites](https://accenture.github.io/adop-docker-compose/docs/prerequisites/).
 
 NB. the instructions will also work in anywhere supported by [Docker Machine](https://docs.docker.com/machine/), just follow the relevant Docker Machine instructions for your target platform and then start at step 3 below and (you can set the AWS_VPC_ID to NA).
